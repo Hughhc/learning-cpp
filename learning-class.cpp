@@ -53,7 +53,7 @@
 //};
 
 // 在类的声明中定义的函数都将自动成为内联函数；在类的声明之外定义的函数如果使用了inline限定符，也是内联函数
-class cl_girl      // 超女基本信息类cl_girl
+class cl_girl      // 超女基本信息类Cgirl
 {
 public:
 	//string name;      // 姓名

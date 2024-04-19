@@ -129,9 +129,11 @@
   <ItemGroup>
     <ClCompile Include="learning-class.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="structure-and-destruction.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="learning-class.h" />
+    <ClInclude Include="structure-and-destruction.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
