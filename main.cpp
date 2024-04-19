@@ -2,12 +2,14 @@
 #pragma warning(disable : 6031)
 
 //#include "learning-class.h"
-#include "structure-and-destruction.h"
+//#include "structure-and-destruction.h"
+#include "copy-constructor.h"
 
 int main()
 {
 	//printStgirl();
-	printCgirl();
+	//printCgirl();
+	printCGirl(); 
 
 	return 0;
 }
