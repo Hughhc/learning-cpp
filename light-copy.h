@@ -3,7 +3,8 @@
 
 using namespace std;
 
-namespace light_cope {
+namespace light_cope 
+{
 	class CGirl
 	{
 	public:

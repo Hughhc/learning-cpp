@@ -128,6 +128,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="copy-constructor.cpp" />
+    <ClCompile Include="init-list.cpp" />
     <ClCompile Include="learning-class.cpp" />
     <ClCompile Include="light-copy.cpp" />
     <ClCompile Include="main.cpp" />
@@ -135,6 +136,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="copy-constructor.h" />
+    <ClInclude Include="init-list.h" />
     <ClInclude Include="learning-class.h" />
     <ClInclude Include="light-copy.h" />
     <ClInclude Include="structure-and-destruction.h" />
