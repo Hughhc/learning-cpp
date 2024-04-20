@@ -33,6 +33,9 @@
     <ClCompile Include="init-list.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="const-function.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="learning-class.h">
@@ -48,6 +51,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="init-list.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="const-function.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

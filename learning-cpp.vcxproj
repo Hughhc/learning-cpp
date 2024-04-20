@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="const-function.cpp" />
     <ClCompile Include="copy-constructor.cpp" />
     <ClCompile Include="init-list.cpp" />
     <ClCompile Include="learning-class.cpp" />
@@ -135,6 +136,7 @@
     <ClCompile Include="structure-and-destruction.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="const-function.h" />
     <ClInclude Include="copy-constructor.h" />
     <ClInclude Include="init-list.h" />
     <ClInclude Include="learning-class.h" />

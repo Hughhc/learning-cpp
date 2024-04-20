@@ -2,7 +2,8 @@
 //#include "structure-and-destruction.h"
 //#include "copy-constructor.h"
 //#include "light-copy.h"
-#include "init-list.h"
+//#include "init-list.h"
+#include "const-function.h"
 
 int main()
 {
@@ -15,7 +16,8 @@ int main()
 	//structure_and_destruction::printCGirl();
 	//cope_constructor::printCGirl();
 	//light_cope::printCGirl();
-	init_list::printCGirl();
+	//init_list::printCGirl();
+	const_function::printCGirl();
 
 	return 0;
 }
