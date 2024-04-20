@@ -49,66 +49,92 @@
 //	}
 //};
 
-// 在类的声明中定义的函数都将自动成为内联函数；在类的声明之外定义的函数如果使用了inline限定符，也是内联函数
-class cl_girl      // 超女基本信息类Cgirl
+//// 在类的声明中定义的函数都将自动成为内联函数；在类的声明之外定义的函数如果使用了inline限定符，也是内联函数
+//class cl_girl      // 超女基本信息类Cgirl
+//{
+//public:
+//	//string name;      // 姓名
+//	//int    age = 20;  // 年龄
+//
+//	// 为了区分类的成员变量和成员函数的形参，把成员变量名加m_前缀或_后缀，如m_name或name_
+//	string m_name;      // 姓名
+//	int    m_age = 20;  // 年龄
+//
+//	void initData()
+//	{
+//		m_name.clear();
+//		m_age = 0;
+//	}
+//	int getage()     // 获取超女年龄属性的方法
+//	{
+//		return m_age;
+//	}
+//	void setage(int age) // 设置超女年龄属性的方法
+//	{
+//		m_age = age;
+//	}
+//	void clearData()
+//	{
+//		initData();
+//	}
+//	//int count = 0;   // 递归次数
+//	//enum { girl = 1, boy = 2 };
+//	//int sex;         // 性别：1-女；2-男
+//	
+//	//void setValue(string name1, int age1) // 设置成员变量的值
+//	//{
+//	//	name = name1;
+//	//	age = age1;
+//	//}
+//	void setValue(string name, int age);
+//
+//	void show() // 显示成员变量的值
+//	{
+//		//if (++count > 10) return;   // 终止条件
+//		cout << "姓名：" << m_name << "，年龄：" << m_age << endl;
+//		//show();
+//		//if (sex==girl) cout << sex << endl;
+//	}
+//};
+
+void learning_class::CGirl::initData()
 {
-public:
-	//string name;      // 姓名
-	//int    age = 20;  // 年龄
+	m_name.clear();
+	m_age = 0;
+}
 
-	// 为了区分类的成员变量和成员函数的形参，把成员变量名加m_前缀或_后缀，如m_name或name_
-	string m_name;      // 姓名
-	int    m_age = 20;  // 年龄
+int learning_class::CGirl::getage()
+{
+	return m_age;
+}
 
-	void initData()
-	{
-		m_name.clear();
-		m_age = 0;
-	}
-	int getage()     // 获取超女年龄属性的方法
-	{
-		return m_age;
-	}
-	void setage(int age) // 设置超女年龄属性的方法
-	{
-		m_age = age;
-	}
-	void clearData()
-	{
-		initData();
-	}
-	//int count = 0;   // 递归次数
-	//enum { girl = 1, boy = 2 };
-	//int sex;         // 性别：1-女；2-男
-	
-	//void setValue(string name1, int age1) // 设置成员变量的值
-	//{
-	//	name = name1;
-	//	age = age1;
-	//}
-	void setValue(string name, int age);
+void learning_class::CGirl::setage(int age)
+{
+	m_age = age;
+}
 
-	void show() // 显示成员变量的值
-	{
-		//if (++count > 10) return;   // 终止条件
-		cout << "姓名：" << m_name << "，年龄：" << m_age << endl;
-		//show();
-		//if (sex==girl) cout << sex << endl;
-	}
-};
+void learning_class::CGirl::clearData()
+{
+	initData();
+}
 
 //void cl_girl::setValue(string name1, int age1)      // 设置成员变量的值
-inline void cl_girl::setValue(string name, int age) // 设置为内联函数
+inline void learning_class::CGirl::setValue(string name, int age) // 设置为内联函数
 {
 	m_name = name;
 	m_age = age;
 	//show();
 }
 
-void printStgirl()
+void learning_class::CGirl::show() // 显示成员变量的值
+{
+	cout << "姓名：" << m_name << "，年龄：" << m_age << endl;
+}
+
+void learning_class::printCGirl()
 {
 	//Stgirl girl = {};
-	cl_girl girl;
+	CGirl girl;
 	
 	//girl.name = "西施";
 	//girl.special = "琴棋书画";

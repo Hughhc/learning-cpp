@@ -27,6 +27,9 @@
     <ClCompile Include="copy-constructor.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="light-copy.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="learning-class.h">
@@ -36,6 +39,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="copy-constructor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="light-copy.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
