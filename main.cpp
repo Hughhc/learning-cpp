@@ -3,7 +3,8 @@
 //#include "copy-constructor.h"
 //#include "light-copy.h"
 //#include "init-list.h"
-#include "const-function.h"
+//#include "const-function.h"
+#include "this-pointer.h"
 
 int main()
 {
@@ -17,7 +18,8 @@ int main()
 	//cope_constructor::printCGirl();
 	//light_cope::printCGirl();
 	//init_list::printCGirl();
-	const_function::printCGirl();
+	//const_function::printCGirl();
+	this_pointer::printCGirl();
 
 	return 0;
 }

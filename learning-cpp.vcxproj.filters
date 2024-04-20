@@ -36,6 +36,9 @@
     <ClCompile Include="const-function.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="this-pointer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="learning-class.h">
@@ -54,6 +57,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="const-function.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="this-pointer.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
