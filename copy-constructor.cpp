@@ -1,6 +1,3 @@
-#define _CRT_SECURE_NO_WARNINGS 1
-#pragma warning(disable : 6031)
-
 #include "copy-constructor.h"
 
 // 用一个已存在的对象创建新的对象，不会调用（普通）构造函数，而是调用拷贝构造函数

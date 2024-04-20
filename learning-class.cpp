@@ -1,6 +1,3 @@
-#define _CRT_SECURE_NO_WARNINGS 1
-#pragma warning(disable : 6031)
-
 #include "learning-class.h"
 
 //struct st_girl    // 超女基本信息结构体st_girl，存放了超女全部的数据项。
