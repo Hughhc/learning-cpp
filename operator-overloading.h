@@ -21,29 +21,42 @@ namespace operator_overloading
 		//friend CGirl& operator+(CGirl& g1, CGirl& g2);
 
 		//friend ostream& operator<<(ostream& cout, const CGirl& g);
-	private:
-		//// 左移运算符重载
-		//string m_name;  // 姓名
+	//private:
+	//	//// 左移运算符重载
+	//	//string m_name;  // 姓名
 
-		//int m_xw;		//胸围
-		//int m_score;	//分数
+	//	//int m_xw;		//胸围
+	//	//int m_score;	//分数
 
-		// 下标运算符重载
-		string m_boys[3];//男朋友
+	//	// 下标运算符重载
+	//	string m_boys[3];//男朋友
+	//public:
+	//	string m_name;  // 姓名
+
+		////默认构造函数
+		//CGirl();
+		//// 自我介绍
+		//void show();
+
+		//// 成员函数重载
+		////CGirl& operator+(int score);
+
+		//// 下标运算符重载 下标运算符必须以成员函数的形式进行重载
+		//string& operator[](int ii); // 不仅可以访问数组元素，还可以修改数组元素
+		//const string& operator[](int ii) const; // 只能访问而不能修改数组元素
+
+		// 重载赋值运算符
 	public:
+		int    m_bh;    // 编号
 		string m_name;  // 姓名
+		int* m_ptr;   // 计划使用堆区内存
 
-		//默认构造函数
 		CGirl();
-		// 自我介绍
+		~CGirl();
+		// 显示全部成员变量。
 		void show();
+		CGirl& operator=(const CGirl& g);
 
-		// 成员函数重载
-		//CGirl& operator+(int score);
-
-		// 下标运算符重载 下标运算符必须以成员函数的形式进行重载
-		string& operator[](int ii); // 不仅可以访问数组元素，还可以修改数组元素
-		const string& operator[](int ii) const; // 只能访问而不能修改数组元素
 	};
 
 	// 重载运算符 非成员函数重载
