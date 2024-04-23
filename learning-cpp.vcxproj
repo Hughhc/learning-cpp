@@ -139,6 +139,7 @@
   <ItemGroup>
     <ClInclude Include="const-function.h" />
     <ClInclude Include="copy-constructor.h" />
+    <ClInclude Include="head.h" />
     <ClInclude Include="init-list.h" />
     <ClInclude Include="learning-class.h" />
     <ClInclude Include="light-copy.h" />
