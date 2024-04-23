@@ -133,6 +133,7 @@
     <ClCompile Include="learning-class.cpp" />
     <ClCompile Include="light-copy.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="operator-overloading.cpp" />
     <ClCompile Include="structure-and-destruction.cpp" />
     <ClCompile Include="this-pointer.cpp" />
   </ItemGroup>
@@ -143,6 +144,7 @@
     <ClInclude Include="init-list.h" />
     <ClInclude Include="learning-class.h" />
     <ClInclude Include="light-copy.h" />
+    <ClInclude Include="operator-overloading.h" />
     <ClInclude Include="structure-and-destruction.h" />
     <ClInclude Include="this-pointer.h" />
   </ItemGroup>

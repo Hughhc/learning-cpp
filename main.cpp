@@ -13,7 +13,8 @@ int main()
 	//light_cope::printCGirl();
 	//init_list::printCGirl();
 	//const_function::printCGirl();
-	this_pointer::printCGirl();
+	//this_pointer::printCGirl();
+	operator_overloading::printCGirl();
 
 	return 0;
 }
