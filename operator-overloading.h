@@ -40,6 +40,7 @@ namespace operator_overloading
 	//CGirl& operator+(int score, CGirl& g);
 	//CGirl& operator+(CGirl& g1, CGirl& g2);
 
+	// 左移运算符重载 只能使用非成员函数版本
 	ostream& operator<<(ostream& cout, const CGirl& g);
 
 	void printCGirl();
