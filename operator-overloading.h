@@ -4,10 +4,14 @@
 
 using namespace std;
 
+// 全局变量重载new&delete运算符
+//void* operator new(size_t size);
+//void operator delete(void* ptr);
+
 namespace operator_overloading
 {
-	class CGirl
-	{
+	//class CGirl
+	//{
 		//C++编译器可能会给类添加四个函数：
 		// 默认构造函数，空实现
 		// 默认析构函数，空实现
@@ -46,18 +50,18 @@ namespace operator_overloading
 		//const string& operator[](int ii) const; // 只能访问而不能修改数组元素
 
 		// 重载赋值运算符
-	public:
-		int    m_bh;    // 编号
-		string m_name;  // 姓名
-		int* m_ptr;   // 计划使用堆区内存
+	//public:
+	//	int    m_bh;    // 编号
+	//	string m_name;  // 姓名
+	//	int* m_ptr;   // 计划使用堆区内存
 
-		CGirl();
-		~CGirl();
-		// 显示全部成员变量。
-		void show();
-		CGirl& operator=(const CGirl& g);
+	//	CGirl();
+	//	~CGirl();
+	//	// 显示全部成员变量。
+	//	void show();
+	//	CGirl& operator=(const CGirl& g);
 
-	};
+	//};
 
 	// 重载运算符 非成员函数重载
 	//CGirl& operator+(CGirl& g, int score);
@@ -68,6 +72,19 @@ namespace operator_overloading
 
 	//// 左移运算符重载 只能使用非成员函数版本
 	//ostream& operator<<(ostream& cout, const CGirl& g);
+
+	// 重载new&delete运算符
+	class CGirl
+	{
+	public:
+		int m_bh; // 编号。
+		int m_xw; // 胸围。
+
+		CGirl(int bh, int xw);
+		~CGirl();
+		void* operator new(size_t size);
+		void operator delete(void* ptr);
+	};
 
 	void printCGirl();
 }
