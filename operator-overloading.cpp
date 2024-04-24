@@ -206,9 +206,9 @@ void operator_overloading::printCGirl()
 	//cout << "*g1.m_ptr=" << *g1.m_ptr << "£¬*g2.m_ptr=" << *g2.m_ptr << endl;
 
 	// ÖØÔØnew&deleteÔËËã·û
-	int* p1 = new int(3);
-	cout << "p1=" << (void*)p1 << "£¬*p1=" << *p1 << endl;
-	delete p1;
+	//int* p1 = new int(3);
+	//cout << "p1=" << (void*)p1 << "£¬*p1=" << *p1 << endl;
+	//delete p1;
 
 	CGirl* p2 = new CGirl(3, 8);
 	cout << "p2µÄµØÖ·ÊÇ£º" << p2 << "±àºÅ£º" << p2->m_bh << "£¬ÐØÎ§£º" << p2->m_xw << endl;

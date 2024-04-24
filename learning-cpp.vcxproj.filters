@@ -42,6 +42,9 @@
     <ClCompile Include="operator-overloading.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="memory-pool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="learning-class.h">
@@ -69,6 +72,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="operator-overloading.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="memory-pool.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

@@ -8,3 +8,4 @@
 #include "const-function.h"
 #include "this-pointer.h"
 #include "operator-overloading.h"
+#include "memory-pool.h"
