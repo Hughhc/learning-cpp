@@ -15,7 +15,8 @@ int main()
 	//const_function::printCGirl();
 	//this_pointer::printCGirl();
 	//operator_overloading::printCGirl();
-	return memory_pool::printCGirl();
+	//return memory_pool::printCGirl();
+	class_inherits::printCGirl();
 
 	return 0;
 }

@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="class-inherits.cpp" />
     <ClCompile Include="const-function.cpp" />
     <ClCompile Include="copy-constructor.cpp" />
     <ClCompile Include="init-list.cpp" />
@@ -139,6 +140,7 @@
     <ClCompile Include="this-pointer.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="class-inherits.h" />
     <ClInclude Include="const-function.h" />
     <ClInclude Include="copy-constructor.h" />
     <ClInclude Include="head.h" />
