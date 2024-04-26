@@ -36,5 +36,5 @@ namespace class_inherits
         void show();
     };
 
-    void printCGirl();
+    void print();
 }

@@ -49,7 +49,7 @@ void cope_constructor::CGirl::show() { cout << "ÐÕÃû£º" << m_name << "£¬ÄêÁä£º" 
 //	return g;
 //}
 
-void cope_constructor::printCGirl()
+void cope_constructor::print()
 {
 	//Cgirl g1;
 	////Cgirl g2 = Cgirl();

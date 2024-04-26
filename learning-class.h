@@ -21,7 +21,7 @@ namespace learning_class {
 		void show();
 	};
 
-	void printCGirl();
+	void print();
 	//void setValue(Stgirl& girl, string name, int age, int height, double weight, char sex,
 	//	int yz, string special, string memo);
 }

@@ -10,3 +10,4 @@
 #include "operator-overloading.h"
 #include "memory-pool.h"
 #include "class-inherits.h"
+#include "class-polymorphism.h"

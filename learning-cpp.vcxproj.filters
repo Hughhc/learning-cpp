@@ -48,6 +48,9 @@
     <ClCompile Include="class-inherits.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="class-polymorphism.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="learning-class.h">
@@ -81,6 +84,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="class-inherits.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="class-polymorphism.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

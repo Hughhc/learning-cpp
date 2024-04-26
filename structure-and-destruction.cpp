@@ -117,7 +117,7 @@ void structure_and_destruction::CGirl::show()
 	cout << "姓名：" << m_name << "，年龄：" << m_age << "，备注：" << m_memo << endl;
 }
 
-void structure_and_destruction::printCGirl()
+void structure_and_destruction::print()
 {
 	// 隐式调用构造函数
 	//Cgirl girl;            // 创建对象，不设置初始值

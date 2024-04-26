@@ -21,5 +21,5 @@ namespace this_pointer
 	};
 
 	//const CGirl& pk(const CGirl& g1, const CGirl& g2);  // C·ç¸ñ
-	void printCGirl();
+	void print();
 }

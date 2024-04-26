@@ -20,5 +20,5 @@ namespace const_function
 		void show4();
 	};
 
-	void printCGirl();
+	void print();
 }

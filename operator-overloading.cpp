@@ -161,7 +161,7 @@ void operator_overloading::CGirl::operator delete(void* ptr)   // 参数必须是void
 	free(ptr);      // 释放内存。
 }
 
-void operator_overloading::printCGirl()
+void operator_overloading::print()
 {
 	//// 导演的要求：每轮表演之后，给超女加上她的得分
 	//CGirl g;

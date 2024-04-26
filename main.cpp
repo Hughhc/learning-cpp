@@ -7,16 +7,17 @@ int main()
 	//printCGirl();
 
 	// 使用命名空间
-	//learning_class::printCGirl();
-	//structure_and_destruction::printCGirl();
-	//cope_constructor::printCGirl();
-	//light_cope::printCGirl();
-	//init_list::printCGirl();
-	//const_function::printCGirl();
-	//this_pointer::printCGirl();
-	//operator_overloading::printCGirl();
-	//return memory_pool::printCGirl();
-	class_inherits::printCGirl();
+	//learning_class::print();
+	//structure_and_destruction::print();
+	//cope_constructor::print();
+	//light_cope::print();
+	//init_list::print();
+	//const_function::print();
+	//this_pointer::print();
+	//operator_overloading::print();
+	//return memory_pool::print();
+	//class_inherits::print();
+	class_polymorphism::print();
 
 	return 0;
 }

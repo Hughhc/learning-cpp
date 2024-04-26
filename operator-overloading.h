@@ -86,5 +86,5 @@ namespace operator_overloading
 		void operator delete(void* ptr);
 	};
 
-	void printCGirl();
+	void print();
 }

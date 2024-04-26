@@ -131,7 +131,7 @@ void learning_class::CGirl::show() // 显示成员变量的值
 	cout << "姓名：" << m_name << "，年龄：" << m_age << endl;
 }
 
-void learning_class::printCGirl()
+void learning_class::print()
 {
 	//Stgirl girl = {};
 	CGirl girl;

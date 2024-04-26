@@ -45,7 +45,7 @@ void init_list::CGirl::show()
 	cout << "ÐÕÃû£º" << m_name << "£¬ÄêÁä£º" << m_age << "£¬ÄÐÅóÓÑ£º" << m_boy.m_name << endl;
 }
 
-void init_list::printCGirl()
+void init_list::print()
 {
 	//CGirl g1;
 	CBoy boy("ÐéÄâ");

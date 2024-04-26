@@ -30,7 +30,7 @@ light_cope::CGirl::~CGirl() { delete m_ptr; m_ptr = nullptr; cout << "调用了~Cgi
 // 显示成员变量
 void light_cope::CGirl::show() { cout << "姓名：" << m_name << "，年龄：" << m_age << "，m_ptr：" << m_ptr << "，*m_ptr：" << *m_ptr << endl; }
 
-void light_cope::printCGirl()
+void light_cope::print()
 {
 	CGirl g1;
 	g1.m_name = "西施"; g1.m_age = 23; g1.m_ptr = new int(3);

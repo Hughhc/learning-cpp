@@ -28,5 +28,5 @@ namespace init_list
 		void show();
 	};
 
-	void printCGirl();
+	void print();
 }

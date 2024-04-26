@@ -17,5 +17,5 @@ namespace cope_constructor {
 		void show();
 	};
 
-	void printCGirl();
+	void print();
 }

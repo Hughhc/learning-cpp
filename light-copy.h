@@ -25,5 +25,5 @@ namespace light_cope
 		void show();
 	};
 
-	void printCGirl();
+	void print();
 }

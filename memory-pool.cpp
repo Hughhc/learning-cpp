@@ -72,7 +72,7 @@ void memory_pool::CGirl::operator delete(void* ptr)   // ²ÎÊı±ØĞëÊÇvoid *£¬·µ»ØÖ
 
 char* memory_pool::CGirl::m_pool = 0;       // ³õÊ¼»¯ÄÚ´æ³ØµÄÖ¸Õë
 
-int memory_pool::printCGirl()
+int memory_pool::print()
 {
 	// ³õÊ¼»¯ÄÚ´æ³Ø¡£
 	if (CGirl::initpool() == false)

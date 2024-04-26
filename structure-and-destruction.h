@@ -21,5 +21,5 @@ namespace structure_and_destruction {
 		void show();
 	};
 
-	void printCGirl();
+	void print();
 }

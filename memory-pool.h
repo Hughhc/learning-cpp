@@ -21,5 +21,5 @@ namespace memory_pool
 		void operator delete(void* ptr);
 	};
 
-	int printCGirl();
+	int print();
 }

@@ -31,7 +31,7 @@ void class_inherits::CGirl::show()
 	cout << "编号：" << m_bh << "，姓名：" << m_name << "，联系电话：" << m_tel << endl; 
 }
 
-void class_inherits::printCGirl()
+void class_inherits::print()
 {
 	CGirl g;
 	//g.setname("西施");

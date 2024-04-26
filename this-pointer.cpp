@@ -33,7 +33,7 @@ void this_pointer::CGirl::func(int a)
 //	return g2;
 //}
 
-void this_pointer::printCGirl()
+void this_pointer::print()
 {
 	//// pk 2个
 	//CGirl g1("西施", 1), g2("东施", 2);

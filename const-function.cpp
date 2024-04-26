@@ -49,7 +49,7 @@ void const_function::CGirl::show4()
 	cout << "姓名：" << m_name << "，年龄：" << m_age << endl;
 }
 
-void const_function::printCGirl()
+void const_function::print()
 {
 	//CGirl g1("西施", 20);
 	const CGirl g1("西施", 20); // 常对象，只能调用const修饰的成员函数
