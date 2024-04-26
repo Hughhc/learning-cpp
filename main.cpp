@@ -18,7 +18,8 @@ int main()
 	//return memory_pool::print();
 	//class_inherits::print();
 	//class_polymorphism::print();
-	automatic_derivation::print();
+	//automatic_derivation::print();
+	function_template::print();
 
 	return 0;
 }

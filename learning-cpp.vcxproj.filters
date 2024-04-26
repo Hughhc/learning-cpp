@@ -54,6 +54,9 @@
     <ClCompile Include="automatic-derivation.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="function-template.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="learning-class.h">
@@ -93,6 +96,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="automatic-derivation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="function-template.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

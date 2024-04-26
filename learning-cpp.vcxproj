@@ -132,6 +132,7 @@
     <ClCompile Include="class-polymorphism.cpp" />
     <ClCompile Include="const-function.cpp" />
     <ClCompile Include="copy-constructor.cpp" />
+    <ClCompile Include="function-template.cpp" />
     <ClCompile Include="init-list.cpp" />
     <ClCompile Include="learning-class.cpp" />
     <ClCompile Include="light-copy.cpp" />
@@ -147,6 +148,7 @@
     <ClInclude Include="class-polymorphism.h" />
     <ClInclude Include="const-function.h" />
     <ClInclude Include="copy-constructor.h" />
+    <ClInclude Include="function-template.h" />
     <ClInclude Include="head.h" />
     <ClInclude Include="init-list.h" />
     <ClInclude Include="learning-class.h" />

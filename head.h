@@ -12,3 +12,4 @@
 #include "class-inherits.h"
 #include "class-polymorphism.h"
 #include  "automatic-derivation.h"
+#include  "function-template.h"
