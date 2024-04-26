@@ -11,3 +11,4 @@
 #include "memory-pool.h"
 #include "class-inherits.h"
 #include "class-polymorphism.h"
+#include  "automatic-derivation.h"

@@ -17,7 +17,8 @@ int main()
 	//operator_overloading::print();
 	//return memory_pool::print();
 	//class_inherits::print();
-	class_polymorphism::print();
+	//class_polymorphism::print();
+	automatic_derivation::print();
 
 	return 0;
 }

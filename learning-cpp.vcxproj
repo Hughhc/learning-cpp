@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="automatic-derivation.cpp" />
     <ClCompile Include="class-inherits.cpp" />
     <ClCompile Include="class-polymorphism.cpp" />
     <ClCompile Include="const-function.cpp" />
@@ -141,6 +142,7 @@
     <ClCompile Include="this-pointer.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="automatic-derivation.h" />
     <ClInclude Include="class-inherits.h" />
     <ClInclude Include="class-polymorphism.h" />
     <ClInclude Include="const-function.h" />
