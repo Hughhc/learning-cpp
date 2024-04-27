@@ -35,7 +35,6 @@ void function_template::fswap(int &a, int &b)     // 函数模板的具体化版本。
 	cout << "使用了具体化的函数模板。\n";
 }
 
-
 void function_template::print()
 {
 	//int a = 10, b = 30;
@@ -52,5 +51,6 @@ void function_template::print()
 	int bh = 3;
 	string message = "我是一只傻傻鸟。";
 	show(bh, message);
-	fswap(1, 2);
+	int a = 10, b = 20;
+	fswap(a, b);
 }
