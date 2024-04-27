@@ -14,21 +14,6 @@
 //	b = tmp;
 //}
 
-// 函数模板
-template <typename T>
-void fswap(T &a,T &b)
-{
-	T tmp = a;
-	a = b;
-	b = tmp;
-}
-
-template <typename T1,typename T2>
-void show(T1& no, T2& message)
-{
-	cout << "亲爱的" << no << "号：" << message << endl;
-}
-
 //class CGirl
 //{
 //public:
@@ -43,6 +28,13 @@ void show(T1& no, T2& message)
 //		cout << "b=" << b << endl;
 //	}
 //};
+
+template <>
+void function_template::fswap(int &a, int &b)     // 函数模板的具体化版本。
+{
+	cout << "使用了具体化的函数模板。\n";
+}
+
 
 void function_template::print()
 {
@@ -60,4 +52,5 @@ void function_template::print()
 	int bh = 3;
 	string message = "我是一只傻傻鸟。";
 	show(bh, message);
+	fswap(1, 2);
 }
