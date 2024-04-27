@@ -130,6 +130,7 @@
     <ClCompile Include="automatic-derivation.cpp" />
     <ClCompile Include="class-inherits.cpp" />
     <ClCompile Include="class-polymorphism.cpp" />
+    <ClCompile Include="class-template.cpp" />
     <ClCompile Include="const-function.cpp" />
     <ClCompile Include="copy-constructor.cpp" />
     <ClCompile Include="function-template.cpp" />
@@ -146,6 +147,7 @@
     <ClInclude Include="automatic-derivation.h" />
     <ClInclude Include="class-inherits.h" />
     <ClInclude Include="class-polymorphism.h" />
+    <ClInclude Include="class-template.h" />
     <ClInclude Include="const-function.h" />
     <ClInclude Include="copy-constructor.h" />
     <ClInclude Include="function-template.h" />

@@ -19,7 +19,8 @@ int main()
 	//class_inherits::print();
 	//class_polymorphism::print();
 	//automatic_derivation::print();
-	function_template::print();
+	//function_template::print();
+	class_template::print();
 
 	return 0;
 }
